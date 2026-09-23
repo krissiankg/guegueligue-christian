@@ -69,7 +69,8 @@ export function LearniaLanding() {
           <div>
             <div className="mb-7 inline-flex items-center gap-2 rounded-full border border-[#4ad9c8]/30 bg-[#1b4a65]/50 px-3 py-1.5 text-xs font-semibold uppercase tracking-[.16em] text-[#7de9dc]"><Sparkles size={13} /> Learn smarter, not longer</div>
             <h1 className="max-w-2xl text-5xl font-semibold leading-[1.05] tracking-[-.04em] sm:text-6xl lg:text-[74px]">Your next skill, <span className="text-[#4ad9c8]">mapped out.</span></h1>
-            <p className="mt-7 max-w-xl text-lg leading-8 text-blue-100">LearnIA turns the best educational videos on YouTube into one clear, focused learning path—so you can spend less time searching and more time growing.</p>
+            <p className="mt-4 text-sm font-semibold uppercase tracking-[.16em] text-[#7de9dc]">Now on GitHub</p>
+            <p className="mt-5 max-w-xl text-lg leading-8 text-blue-100">LearnIA turns the best educational videos on YouTube into one clear, focused learning path—so you can spend less time searching and more time growing.</p>
             <form onSubmit={handleSubmit} className="mt-9 flex max-w-xl flex-col gap-3 sm:flex-row">
               <label className="flex min-h-14 flex-1 items-center gap-3 rounded-xl border border-white/15 bg-white px-4 text-[#10213d] shadow-xl shadow-black/10">
                 <Search size={19} className="text-slate-400" aria-hidden="true" />
